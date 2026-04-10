@@ -1,0 +1,1 @@
+import Link from "next/link"; export default function Nav(){return <header className="nav"><div className="container nav-inner"><Link href="/" className="logo">odd.cut media</Link><nav className="nav-links"><Link href="/trabalho">trabalho</Link><Link href="/sobre-nos">sobre nós</Link><Link href="/contacto">contacto</Link></nav></div></header>;}

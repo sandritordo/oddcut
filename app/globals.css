@@ -1,0 +1,11 @@
+
+:root{color-scheme:dark}*{box-sizing:border-box}html,body{margin:0;padding:0;background:#0d0d0d;color:#fff;font-family:Arial,Helvetica,sans-serif}
+a{text-decoration:none;color:inherit}.container{max-width:1400px;margin:0 auto;padding:0 24px}.nav{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(13,13,13,.3);backdrop-filter:blur(6px)}
+.nav-inner{height:76px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:800;letter-spacing:.2em;text-transform:uppercase}.nav-links{display:flex;gap:24px;font-size:13px;letter-spacing:.22em;text-transform:uppercase}
+.section{padding:120px 0}.hero{min-height:100vh;display:flex;align-items:flex-end;padding-bottom:70px;background:#000}.hero-box{max-width:850px}.hero h1{font-size:clamp(52px,10vw,96px);line-height:.95;margin:0}
+.hero p{max-width:580px;color:rgba(255,255,255,.85);font-size:18px;line-height:1.6}.button{display:inline-block;border:1px solid #fff;padding:16px 24px;text-transform:uppercase;letter-spacing:.28em;font-size:13px;font-weight:700;margin-top:24px}
+.button:hover{background:#fff;color:#000}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.card{background:#1a1a1a;border-radius:24px;padding:28px}.work-card{background:#1a1a1a;border-radius:22px;overflow:hidden}
+.thumb{aspect-ratio:16/9;width:100%;background:#1a1a1a;object-fit:cover;display:block}.muted{color:rgba(255,255,255,.7)}.title-xl{font-size:clamp(44px,8vw,96px);font-weight:800;line-height:1}.title-lg{font-size:clamp(36px,6vw,64px);font-weight:800;line-height:1}
+.form-input,.form-textarea,select.form-input{width:100%;background:transparent;border:none;border-bottom:1px solid rgba(255,255,255,.4);padding:16px 0;color:#fff}.form-textarea{min-height:140px}.footer{border-top:1px solid rgba(255,255,255,.1);padding:30px 0;color:rgba(255,255,255,.6);font-size:13px}
+.table{width:100%;border-collapse:collapse}.table td,.table th{padding:14px;border-bottom:1px solid rgba(255,255,255,.1);text-align:left}
+@media (max-width:900px){.grid-3{grid-template-columns:1fr}.nav-links{display:none}}

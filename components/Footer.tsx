@@ -1,0 +1,1 @@
+export default function Footer(){return <footer className="footer"><div className="container">odd.cut media © 2025 · Lisboa · oddcutmedia@oddcut.pt</div></footer>;}
