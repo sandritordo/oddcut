@@ -1,1 +1,7 @@
-export default function Footer(){return <footer className="footer"><div className="container">odd.cut media © 2025 · Lisboa · oddcutmedia@oddcut.pt</div></footer>;}
+export default function Footer() {
+  return (
+    <footer style={{ padding: "20px" }}>
+      odd.cut media © 2025
+    </footer>
+  );
+}
