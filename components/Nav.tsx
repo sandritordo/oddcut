@@ -1,1 +1,14 @@
-import Link from "next/link"; export default function Nav(){return <header className="nav"><div className="container nav-inner"><Link href="/" className="logo">odd.cut media</Link><nav className="nav-links"><Link href="/trabalho">trabalho</Link><Link href="/sobre-nos">sobre nós</Link><Link href="/contacto">contacto</Link></nav></div></header>;}
+import Link from "next/link";
+
+export default function Nav() {
+  return (
+    <header>
+      <nav style={{ padding: "20px", display: "flex", gap: "20px" }}>
+        <Link href="/">Home</Link>
+        <Link href="/trabalho">Trabalho</Link>
+        <Link href="/sobre-nos">Sobre Nós</Link>
+        <Link href="/contacto">Contacto</Link>
+      </nav>
+    </header>
+  );
+}
